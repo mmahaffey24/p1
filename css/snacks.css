@@ -1,0 +1,59 @@
+
+body{
+    background-image: url("../snacks/games background.jpeg");
+    background-size: cover;
+}
+
+.container{
+    width: cover;
+    height: cover;
+    display: block; 
+}
+
+.header{
+    background-color: rgb(145, 59, 185) ;
+    font-weight: 200;
+    color:aqua; 
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+.leftDiv{
+    width: 400px;
+    float: left;
+    background-color: rgb(93, 10, 141);
+    height: 800px; 
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(11, 156, 228);
+}
+
+.midDiv{
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: auto;
+    width: 400px;
+    height: 750px; 
+    background-color: rgb(54, 225, 223);
+    margin-top: 100px;
+    text-align:center;
+    font-size: 20px;
+    color: white;
+    font-family:sans-serif;
+}
+
+.rightDiv{
+    width: 400px;
+    float: right;
+    background-color: rgb(71, 71, 124);
+    height: 800px;
+    margin-top: 50px;
+    text-align:center;
+    font-size: 20px;
+    color: rgb(187, 187, 238);
+    font-family:sans-serif;
+
+}
